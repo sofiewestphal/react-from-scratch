@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+
+    a {
+        color: #ab7d9a;
+        padding: 0 20px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+.activeNavLink{
+    text-decoration-line: underline;
+}

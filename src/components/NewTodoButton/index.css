@@ -1,0 +1,15 @@
+#containerBtnNewTodoList{
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 20vh;
+    padding-left: 40px;
+}
+
+#btnNewTodoList{
+    border: 2px solid #ab7d9a;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}

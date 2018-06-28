@@ -1,4 +1,24 @@
+
+body{
+    background-image: url(../../assets/glitter_background.jpg);
+    background-size: 40%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+
 h1 {
-    color: pink;
-    text-align: center;
+    color: #ab7d9a;
+}
+
+.page {
+    padding: 10px;
+    /* border-left: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid rgb(238, 238, 238); */
+    min-height: 100vh;
+    background-color: rgba(255,255,255,1);
+    min-width: 600px;
+    width: 60%;
+    margin: auto;
 }

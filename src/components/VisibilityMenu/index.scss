@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+#visibilityMenu{
+    justify-content: flex-start;
+    cursor: pointer;
+    ul{
+        padding: 0;
+        display: flex;
+
+        li{
+            padding-top: 8px;
+            padding-bottom: 10px;
+            width: 150px;
+            text-align: center;
+            list-style-type: none;
+            border: 1px solid rgb(238, 238, 238);
+        }
+    }
+}
+.active{
+    background-color:  rgb(238, 238, 238);
+}

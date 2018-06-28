@@ -1,0 +1,26 @@
+button {
+    padding: 7px 10px 10px 10px;
+    border: 2px solid #ab7d9a;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+input{
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid rgb(190,190,190);
+    margin-right: 20px;
+}
+input:focus {
+    outline-width: 0;
+}
+
+#addTodoForm{
+    margin-top: 37px;
+    display: flex;
+    align-items: flex-end;
+}
